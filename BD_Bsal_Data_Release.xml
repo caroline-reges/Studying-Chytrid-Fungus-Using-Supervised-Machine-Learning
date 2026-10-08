@@ -1,0 +1,2292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>J. Hardin Waddle</origin>
+        <origin>Daniel A. Grear</origin>
+        <origin>Brad M. Glorioso</origin>
+        <origin>Adam R. Backlin</origin>
+        <origin>William J. Barichivich</origin>
+        <origin>Adrianne B. Brand</origin>
+        <origin>Daniel L. Calhoun</origin>
+        <origin>Jillian E. Fleming</origin>
+        <origin>Andrew E. Dietrich</origin>
+        <origin>Patrick M. Kleeman</origin>
+        <origin>Marcella A. Cruz</origin>
+        <pubdate>20190522</pubdate>
+        <title>Data from a national survey for the amphibian chytrid fungus Batrachochytrium salamandrivorans (ver. 2.0, Nov 2024)</title>
+        <geoform>tabular digital data</geoform>
+        <onlink>https://doi.org/10.5066/P9BGQA1T</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Daniel A. Grear</origin>
+            <origin>Michael J. Adams</origin>
+            <origin>Adam R. Backlin</origin>
+            <origin>William J. Barichivich</origin>
+            <origin>Adrianne B. Brand</origin>
+            <origin>Gary M. Bucciarelli</origin>
+            <origin>Daniel L. Calhoun</origin>
+            <origin>Tara Chestnut</origin>
+            <origin>Jon M. Davenport</origin>
+            <origin>Andrew E. Dietrich</origin>
+            <origin>Graziella DiRenzo</origin>
+            <origin>Robert N. Fisher</origin>
+            <origin>Brad M. Glorioso</origin>
+            <origin>Evan H. Campbell Grant</origin>
+            <origin>Brian J. Halstead</origin>
+            <origin>Marc P. Hayes</origin>
+            <origin>Blake R. Hossack</origin>
+            <origin>Morgan Kain</origin>
+            <origin>Patrick M. Kleeman</origin>
+            <origin>Jeffrey M. Lorch</origin>
+            <origin>Brome McCreary</origin>
+            <origin>David A.W. Miller</origin>
+            <origin>Brittany A. Mosher</origin>
+            <origin>Erin Muths</origin>
+            <origin>Christopher A. Pearl</origin>
+            <origin>Charles W. Robinson</origin>
+            <origin>Mark F. Roth</origin>
+            <origin>Jennifer C. Rowe</origin>
+            <origin>Walt Sadinski</origin>
+            <origin>Brent H. Sigafus</origin>
+            <origin>Iga Stasiak</origin>
+            <origin>Samuel Sweet</origin>
+            <origin>J. Hardin Waddle</origin>
+            <origin>Susan C. Walls</origin>
+            <origin>Gregory J. Watkins-Colwell</origin>
+            <origin>Lori A. Williams</origin>
+            <origin>Megan E. Winzeler</origin>
+            <pubdate>20241130</pubdate>
+            <title>Pan-Amphibia distribution of the fungal parasite Batrachochytrium dendrobatidis varies with species and temperature</title>
+            <geoform>publication</geoform>
+            <pubinfo>
+              <pubplace>Ecological Monographs</pubplace>
+              <publish>Wiley</publish>
+            </pubinfo>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset provides the results of a national survey of the United States for the salamander chytrid fungus Batrachochytrium salamandrivorans (Bsal) and the amphibian chytrid fungus Batrachochytrium dendrobatidis (Bd) conducted by the U.S. Geological Survey Amphibian Research and Monitoring Initiative from May 2014 to August 2017. Sites were sampled by capturing amphibians by hand or by traps or nets that were then swabbed individually using methods that prevent sample contamination. All swabs were then analyzed using a real-time TaqMan PCR for detection of B. salamandrivorans and Bd on the extracted DNA. The data consist of locality information and data on the individual sampled, as well as the result of the test for B. salamandrivorans and Bd. No cases of B. salamandrivorans were detected in this study.</abstract>
+      <purpose>These data were collected to attempt to document the current distribution of Batrachochytrium salamandrivorans (Bsal) in the United States Locality data can be used to determine the spatial extent of this survey. No cases of B. salamandrivorans were detected in this study. The number of individuals sampled per site can be used to determine the level of sampling effort at each site. The species data provides information on the species that were sampled. We also tested the samples for Batrachochytrium dendrobatidis (Bd), another amphibian fungal pathogen.</purpose>
+      <supplinf>Author ORCIDs: Waddle, J.H.(0000-0003-1940-2133);Grear, D.A.(0000-0002-5478-1549);Glorioso, B.M.(0000-0002-5400-7414);Backlin, A.R.(0000-0001-5618-8426);Barichivich, W.J.(0000-0003-1103-6861);Brand, A.B.(0000-0003-2664-0041);Calhoun, D.L.(0000-0003-2371-6936);Fleming, J.E.(0000-0003-2570-914X);Kleeman, P.M.(0000-0001-6567-3239);Cruz, M.A.(0000-0002-8100-8738)</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20140502</begdate>
+          <enddate>20170817</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <descgeog>United States of America</descgeog>
+      <bounding>
+        <westbc>-125.2441</westbc>
+        <eastbc>-66.8848</eastbc>
+        <northbc>49.3251</northbc>
+        <southbc>23.9662</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>biota</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>wildlife disease</themekey>
+        <themekey>amphibians</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:5af5ef0de4b0da30c1b5f9eb</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>United States</placekey>
+      </place>
+      <place>
+        <placekt>Common geographic areas</placekt>
+        <placekey>United States</placekey>
+      </place>
+    </keywords>
+    <taxonomy>
+      <keywtax>
+        <taxonkt>None</taxonkt>
+        <taxonkey>Ambystoma maculatum</taxonkey>
+        <taxonkey>Ambystoma opacum</taxonkey>
+        <taxonkey>Ambystoma cingulatum</taxonkey>
+        <taxonkey>Ambystoma annulatum</taxonkey>
+        <taxonkey>Ambystoma californiense</taxonkey>
+        <taxonkey>Ambystoma gracile</taxonkey>
+        <taxonkey>Ambystoma laterale</taxonkey>
+        <taxonkey>Ambystoma macrodactylum</taxonkey>
+        <taxonkey>Ambystoma mavortium</taxonkey>
+        <taxonkey>Ambystoma talpoideum</taxonkey>
+        <taxonkey>Ambystoma tigrinum</taxonkey>
+        <taxonkey>Amphiuma means</taxonkey>
+        <taxonkey>Amphiuma tridactylum</taxonkey>
+        <taxonkey>Anaxyrus boreas</taxonkey>
+        <taxonkey>Anaxyrus punctatus</taxonkey>
+        <taxonkey>Aneides lugubris</taxonkey>
+        <taxonkey>Aneides vagrans</taxonkey>
+        <taxonkey>Batrachoseps attenuatus</taxonkey>
+        <taxonkey>Batrachoseps gavilanensis</taxonkey>
+        <taxonkey>Batrachoseps major</taxonkey>
+        <taxonkey>Batrachoseps minor</taxonkey>
+        <taxonkey>Batrachoseps nigriventris</taxonkey>
+        <taxonkey>Batrachoseps pacificus</taxonkey>
+        <taxonkey>Batrachoseps robustus</taxonkey>
+        <taxonkey>Batrachoseps stebbinsi</taxonkey>
+        <taxonkey>Dicamptodon ensatus</taxonkey>
+        <taxonkey>Dicamptodon tenebrosus</taxonkey>
+        <taxonkey>Ensatina eschscholtzii</taxonkey>
+        <taxonkey>Eurycea bislineata</taxonkey>
+        <taxonkey>Eurycea cirrigera</taxonkey>
+        <taxonkey>Gyrinophilus porphyriticus</taxonkey>
+        <taxonkey>Lithobates catesbeianus</taxonkey>
+        <taxonkey>Lithobates chiricahuensis</taxonkey>
+        <taxonkey>Lithobates pipiens</taxonkey>
+        <taxonkey>Necturus beyeri</taxonkey>
+        <taxonkey>Necturus maculosus</taxonkey>
+        <taxonkey>Notophthalmus perstriatus</taxonkey>
+        <taxonkey>Notophthalmus viridescens</taxonkey>
+        <taxonkey>Plethodon cinereus</taxonkey>
+        <taxonkey>Plethodon glutinosus</taxonkey>
+        <taxonkey>Pseudacris cadaverina</taxonkey>
+        <taxonkey>Pseudacris maculata</taxonkey>
+        <taxonkey>Pseudacris regilla</taxonkey>
+        <taxonkey>Pseudacris triseriata</taxonkey>
+        <taxonkey>Pseudotriton ruber</taxonkey>
+        <taxonkey>Rana aurora</taxonkey>
+        <taxonkey>Rana luteiventris</taxonkey>
+        <taxonkey>Rana muscosa</taxonkey>
+        <taxonkey>Siren intermedia</taxonkey>
+        <taxonkey>Spea hammondii</taxonkey>
+        <taxonkey>Taricha granulosa</taxonkey>
+        <taxonkey>Taricha sierrae</taxonkey>
+        <taxonkey>Taricha</taxonkey>
+        <taxonkey>Taricha torosa</taxonkey>
+      </keywtax>
+      <taxoncl>
+        <taxonrn>Kingdom</taxonrn>
+        <taxonrv>Animalia</taxonrv>
+        <taxoncl>
+          <taxonrn>Subkingdom</taxonrn>
+          <taxonrv>Bilateria</taxonrv>
+          <taxoncl>
+            <taxonrn>Infrakingdom</taxonrn>
+            <taxonrv>Deuterostomia</taxonrv>
+            <taxoncl>
+              <taxonrn>Phylum</taxonrn>
+              <taxonrv>Chordata</taxonrv>
+              <taxoncl>
+                <taxonrn>Subphylum</taxonrn>
+                <taxonrv>Vertebrata</taxonrv>
+                <taxoncl>
+                  <taxonrn>Infraphylum</taxonrn>
+                  <taxonrv>Gnathostomata</taxonrv>
+                  <taxoncl>
+                    <taxonrn>Superclass</taxonrn>
+                    <taxonrv>Tetrapoda</taxonrv>
+                    <taxoncl>
+                      <taxonrn>Class</taxonrn>
+                      <taxonrv>Amphibia</taxonrv>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Caudata</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Ambystomatidae</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Ambystoma</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Ambystoma maculatum</taxonrv>
+                              <common>TSN: 173590</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Ambystoma opacum</taxonrv>
+                              <common>TSN: 173591</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Ambystoma cingulatum</taxonrv>
+                              <common>TSN: 173596</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Ambystoma annulatum</taxonrv>
+                              <common>TSN: 173594</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Ambystoma californiense</taxonrv>
+                              <common>TSN: 173595</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Ambystoma gracile</taxonrv>
+                              <common>TSN: 173597</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Ambystoma laterale</taxonrv>
+                              <common>TSN: 173599</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Ambystoma macrodactylum</taxonrv>
+                              <common>TSN: 173601</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Ambystoma mavortium</taxonrv>
+                              <common>TSN: 668193</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Ambystoma talpoideum</taxonrv>
+                              <common>TSN: 173604</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Ambystoma tigrinum</taxonrv>
+                              <common>TSN: 173592</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Dicamptodon</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Dicamptodon ensatus</taxonrv>
+                              <common>TSN: 173743</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Dicamptodon tenebrosus</taxonrv>
+                              <common>TSN: 550242</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Amphiumidae</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Amphiuma</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Amphiuma means</taxonrv>
+                              <common>TSN: 173609</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Amphiuma tridactylum</taxonrv>
+                              <common>TSN: 173612</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Plethodontidae</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Subfamily</taxonrn>
+                            <taxonrv>Plethodontinae</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Genus</taxonrn>
+                              <taxonrv>Aneides</taxonrv>
+                              <taxoncl>
+                                <taxonrn>Species</taxonrn>
+                                <taxonrv>Aneides lugubris</taxonrv>
+                                <common>TSN: 173703</common>
+                              </taxoncl>
+                              <taxoncl>
+                                <taxonrn>Species</taxonrn>
+                                <taxonrv>Aneides vagrans</taxonrv>
+                                <common>TSN: 668242</common>
+                              </taxoncl>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Genus</taxonrn>
+                              <taxonrv>Ensatina</taxonrv>
+                              <taxoncl>
+                                <taxonrn>Species</taxonrn>
+                                <taxonrv>Ensatina eschscholtzii</taxonrv>
+                                <common>TSN: 173732</common>
+                              </taxoncl>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Genus</taxonrn>
+                              <taxonrv>Plethodon</taxonrv>
+                              <taxoncl>
+                                <taxonrn>Species</taxonrn>
+                                <taxonrv>Plethodon cinereus</taxonrv>
+                                <common>TSN: 173649</common>
+                              </taxoncl>
+                              <taxoncl>
+                                <taxonrn>Species</taxonrn>
+                                <taxonrv>Plethodon glutinosus</taxonrv>
+                                <common>TSN: 173650</common>
+                              </taxoncl>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Subfamily</taxonrn>
+                            <taxonrv>Bolitoglossinae</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Genus</taxonrn>
+                              <taxonrv>Batrachoseps</taxonrv>
+                              <taxoncl>
+                                <taxonrn>Species</taxonrn>
+                                <taxonrv>Batrachoseps attenuatus</taxonrv>
+                                <common>TSN: 173706</common>
+                              </taxoncl>
+                              <taxoncl>
+                                <taxonrn>Species</taxonrn>
+                                <taxonrv>Batrachoseps gavilanensis</taxonrv>
+                                <common>TSN: 668243</common>
+                              </taxoncl>
+                              <taxoncl>
+                                <taxonrn>Species</taxonrn>
+                                <taxonrv>Batrachoseps major</taxonrv>
+                                <common>TSN: 208343</common>
+                              </taxoncl>
+                              <taxoncl>
+                                <taxonrn>Species</taxonrn>
+                                <taxonrv>Batrachoseps minor</taxonrv>
+                                <common>TSN: 668246</common>
+                              </taxoncl>
+                              <taxoncl>
+                                <taxonrn>Species</taxonrn>
+                                <taxonrv>Batrachoseps nigriventris</taxonrv>
+                                <common>TSN: 173708</common>
+                              </taxoncl>
+                              <taxoncl>
+                                <taxonrn>Species</taxonrn>
+                                <taxonrv>Batrachoseps pacificus</taxonrv>
+                                <common>TSN: 173709</common>
+                              </taxoncl>
+                              <taxoncl>
+                                <taxonrn>Species</taxonrn>
+                                <taxonrv>Batrachoseps robustus</taxonrv>
+                                <common>TSN: 668247</common>
+                              </taxoncl>
+                              <taxoncl>
+                                <taxonrn>Species</taxonrn>
+                                <taxonrv>Batrachoseps stebbinsi</taxonrv>
+                                <common>TSN: 173711</common>
+                              </taxoncl>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Subfamily</taxonrn>
+                            <taxonrv>Spelerpinae</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Genus</taxonrn>
+                              <taxonrv>Eurycea</taxonrv>
+                              <taxoncl>
+                                <taxonrn>Species</taxonrn>
+                                <taxonrv>Eurycea bislineata</taxonrv>
+                                <common>TSN: 173685</common>
+                              </taxoncl>
+                              <taxoncl>
+                                <taxonrn>Species</taxonrn>
+                                <taxonrv>Eurycea cirrigera</taxonrv>
+                                <common>TSN: 550246</common>
+                              </taxoncl>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Genus</taxonrn>
+                              <taxonrv>Gyrinophilus</taxonrv>
+                              <taxoncl>
+                                <taxonrn>Species</taxonrn>
+                                <taxonrv>Gyrinophilus porphyriticus</taxonrv>
+                                <common>TSN: 173715</common>
+                              </taxoncl>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Genus</taxonrn>
+                              <taxonrv>Pseudotriton</taxonrv>
+                              <taxoncl>
+                                <taxonrn>Species</taxonrn>
+                                <taxonrv>Pseudotriton ruber</taxonrv>
+                                <common>TSN: 173680</common>
+                              </taxoncl>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Proteidae</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Necturus</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Necturus beyeri</taxonrv>
+                              <common>TSN: 173629</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Necturus maculosus</taxonrv>
+                              <common>TSN: 173630</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Salamandridae</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Notophthalmus</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Notophthalmus perstriatus</taxonrv>
+                              <common>TSN: 173618</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Notophthalmus viridescens</taxonrv>
+                              <common>TSN: 173615</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Taricha</taxonrv>
+                            <common>TSN: 173619</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Taricha granulosa</taxonrv>
+                              <common>TSN: 173620</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Taricha sierrae</taxonrv>
+                              <common>TSN: 775939</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Taricha torosa</taxonrv>
+                              <common>TSN: 173622</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Sirenidae</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Siren</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Siren intermedia</taxonrv>
+                              <common>TSN: 173736</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Anura</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Bufonidae</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Anaxyrus</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Anaxyrus boreas</taxonrv>
+                              <common>TSN: 773513</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Anaxyrus punctatus</taxonrv>
+                              <common>TSN: 773527</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Ranidae</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Lithobates</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Lithobates catesbeianus</taxonrv>
+                              <common>TSN: 775084</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Lithobates chiricahuensis</taxonrv>
+                              <common>TSN: 775086</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Lithobates pipiens</taxonrv>
+                              <common>TSN: 775108</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Rana</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Rana aurora</taxonrv>
+                              <common>TSN: 173446</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Rana luteiventris</taxonrv>
+                              <common>TSN: 550546</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Rana muscosa</taxonrv>
+                              <common>TSN: 173454</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Hylidae</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Subfamily</taxonrn>
+                            <taxonrv>Hylinae</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Genus</taxonrn>
+                              <taxonrv>Pseudacris</taxonrv>
+                              <taxoncl>
+                                <taxonrn>Species</taxonrn>
+                                <taxonrv>Pseudacris cadaverina</taxonrv>
+                                <common>TSN: 550237</common>
+                              </taxoncl>
+                              <taxoncl>
+                                <taxonrn>Species</taxonrn>
+                                <taxonrv>Pseudacris maculata</taxonrv>
+                                <common>TSN: 207312</common>
+                              </taxoncl>
+                              <taxoncl>
+                                <taxonrn>Species</taxonrn>
+                                <taxonrv>Pseudacris regilla</taxonrv>
+                                <common>TSN: 207313</common>
+                              </taxoncl>
+                              <taxoncl>
+                                <taxonrn>Species</taxonrn>
+                                <taxonrv>Pseudacris triseriata</taxonrv>
+                                <common>TSN: 173525</common>
+                              </taxoncl>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Scaphiopodidae</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Spea</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Spea hammondii</taxonrv>
+                              <common>TSN: 206990</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                    </taxoncl>
+                  </taxoncl>
+                </taxoncl>
+              </taxoncl>
+            </taxoncl>
+          </taxoncl>
+        </taxoncl>
+      </taxoncl>
+    </taxonomy>
+    <accconst>None.  Please see 'Distribution Info' for details.</accconst>
+    <useconst>None.  Users are advised to read the data set's metadata thoroughly to understand appropriate use and data limitations.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Hardin Waddle</cntper>
+          <cntorg>U.S. Geological Survey, Southeast Region</cntorg>
+        </cntperp>
+        <cntpos>Research Ecologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>7920 NW 71St Street</address>
+          <city>Gainesville</city>
+          <state>FL</state>
+          <postal>32653</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>352-264-3524</cntvoice>
+        <cntfax>352-378-4956</cntfax>
+        <cntemail>waddleh@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <crossref>
+      <citeinfo>
+        <origin>M. Blooi</origin>
+        <origin>F. Pasmans</origin>
+        <origin>J. E. Longcore</origin>
+        <origin>A. Spitzen-van der Sluijs</origin>
+        <origin>F. Vercammen</origin>
+        <origin>A. Martel</origin>
+        <pubdate>20131009</pubdate>
+        <title>Duplex Real-Time PCR for Rapid Simultaneous Detection of Batrachochytrium dendrobatidis and Batrachochytrium salamandrivorans in Amphibian Samples</title>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>Journal of Clinical Microbiology</sername>
+          <issue>vol. 51, issue 12</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>n/a</pubplace>
+          <publish>American Society for Microbiology</publish>
+        </pubinfo>
+        <othercit>ppg. 4173-4177</othercit>
+        <onlink>http://dx.doi.org/10.1128/JCM.02313-13</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>AD Hyatt</origin>
+        <origin>DG Boyle</origin>
+        <origin>V Olsen</origin>
+        <origin>DB Boyle</origin>
+        <origin>L Berger</origin>
+        <origin>D Obendorf</origin>
+        <origin>A Dalton</origin>
+        <origin>K Kriger</origin>
+        <origin>M Hero</origin>
+        <origin>H Hines</origin>
+        <origin>R Phillott</origin>
+        <origin>R Campbell</origin>
+        <origin>G Marantelli</origin>
+        <origin>F Gleason</origin>
+        <origin>A Colling</origin>
+        <pubdate>20070118</pubdate>
+        <title>Diagnostic assays and sampling protocols for the detection of Batrachochytrium dendrobatidis</title>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>Diseases of Aquatic Organisms</sername>
+          <issue>vol. 73</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>n/a</pubplace>
+          <publish>Inter-Research Science Center</publish>
+        </pubinfo>
+        <othercit>ppg. 175-192</othercit>
+        <onlink>http://dx.doi.org/10.3354/dao073175</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Pascale Van Rooij</origin>
+        <origin>An Martel</origin>
+        <origin>Joachim Nerz</origin>
+        <origin>Sebastian Voitel</origin>
+        <origin>Filip Van Immerseel</origin>
+        <origin>Freddy Haesebrouck</origin>
+        <origin>Frank Pasmans</origin>
+        <pubdate>20110913</pubdate>
+        <title>Detection of Batrachochytrium dendrobatidis in Mexican Bolitoglossine Salamanders Using an Optimal Sampling Protocol</title>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>EcoHealth</sername>
+          <issue>vol. 8, issue 2</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>n/a</pubplace>
+          <publish>Springer Nature</publish>
+        </pubinfo>
+        <othercit>ppg. 237-243</othercit>
+        <onlink>http://dx.doi.org/10.1007/s10393-011-0704-z</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The attributes included are measured using standard techniques and methods. No methods were used to assess the accuracy of the location coordinates or the body length of sampled individuals. We collected two separate swabs from each animal, with one held in reserve in case Bsal was detected to provide confirmation. Bsal was not detected.</attraccr>
+    </attracc>
+    <logic>All data in this release were checked for logical consistency. We ensured that all values were in ranges that were possible, and we checked carefully for duplicates.</logic>
+    <complete>The dataset is complete. All records from the United States during this sampling period that we had access to were included.</complete>
+    <lineage>
+      <procstep>
+        <procdesc>All sampling was conducted by capturing target animals by hand, nets, or traps. After capture, we handled each animal separately using disposable powderless-vinyl gloves and new, clean plastic bags to avoid cross contamination. We rubbed rayon-tipped sterile swabs (MW-113, Medical Wire &amp; Equipment, Corsham, England) over the plantar side of one front limb, the plantar side of one hind limb, the ventral tail surface of caudates, the dorsal side of the body, and the ventral surface of the body 5 times each (Van Rooij et al 2011). We placed the swabs into sterile plastic vials with 20 μl of sterile deionized water. We recorded the snout-vent length and sex. We chilled swabs immediately after field collection and froze them at -20 C or colder. Swabs were sent frozen to the National Wildlife Health Center in Madison, Wisconsin for analysis.
+
+We extracted DNA from swabs as described by Hyatt et al. (2007) except that 125 μl of PrepMan® Ultra Sample Preparation Reagent (Applied Biosystems, Foster City, CA) and 100 mg of zirconium/silica beads (Biospec Products, Bartlesville, OK) were used so that the entire swab was immersed during the procedure and the bead-beating steps were conducted using a FastPrep®-24 homogenizer (MP Biomedicals, Santa Ana, CA).  We used a real-time TaqMan PCR for duplex detection of B. salamandrivorans and B. dendrobatidis on the extracted DNA as described in Blooi et al. (2013, 2016). We ran reactions on the 7500 fast real-time PCR system (Applied Biosystems, Foster City, CA) using QuantiFast Probe RT-PCR mastermix kit with ROX dye (Qiagen, Valencia, CA) and BSA as per the kit instructions. We used five microliters of the PrepMan® solution containing the extracted DNA as template for the PCR. We included a negative extraction control and a standard curve run in duplicate on each PCR plate. The standard curve consisted of five different concentrations of the target sequence for B. salamandrivorans or B. dendrobatidis inserted into plasmids. The concentrations of the standards occurred at ten-fold dilutions ranging from 110-1,100,000 copies (0.5 fg – 5000 fg DNA) per reaction (on some initial runs, the standard range was 11-110,000 copies per reaction). The threshold for signal detection was set at 5% of the maximum fluorescence of the standards run for that assay. We considered a positive detection of Bsal or Bd DNA if there was a detectable signal at 40 or fewer PCR cycles and no detection in all other cases. We calculated the efficiency of each run using standard curve amplification and repeated PCR plates with an efficiency of less than 90% or greater than 110%.</procdesc>
+        <procdate>20180530</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Daniel A Grear</cntper>
+              <cntorg>USGS - MIDCONTINENT REGION</cntorg>
+            </cntperp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>National Wildlife Health Ctr,NWHC - Main Building</address>
+              <city>Madison</city>
+              <state>WI</state>
+              <postal>53711</postal>
+            </cntaddr>
+            <cntvoice>608-270-2478</cntvoice>
+            <cntemail>dgrear@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>BsalBdDataFull.csv</enttypl>
+        <enttypd>Comma Separated Value (CSV) file containing data.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>SwabID</attrlabl>
+        <attrdef>Barcode or submitter-assigned identification number</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <udom>Most of these values are 10 digits and correspond to the barcode placed on vials that contained the swabs.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CollectionDate</attrlabl>
+        <attrdef>Date of field swab collection</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <udom>The dates are recorded in the format MM-DD-YYYY, e.g. 2-15-2017 is February 15, 2017. Six samples from Missouri are missing</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TaxaID</attrlabl>
+        <attrdef>Numeric code for species corresponding to the Integrated Taxonomic Information System (ITIS) found at https://www.itis.gov/</attrdef>
+        <attrdefs>Integrated Taxonomic Information System (ITIS)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>173446</rdommin>
+            <rdommax>775939</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ScientificName</attrlabl>
+        <attrdef>The species name that corresponds to the ITIS TaxaID in previous column</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <udom>The species name in this field consists of the genus and specific epithet that correspond to the ITIS TaxaID</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SiteName</attrlabl>
+        <attrdef>Submitter-assigned site name where swabs were collected</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <udom>This is the name of the site assigned by the submitter and used in the Amphibian Reasearch and Monitoring Initiative (ARMI) database. In many instances the site name is the known name of the particular public place, but other site names may be made up by the individual submitter.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>State</attrlabl>
+        <attrdef>The full name of the state in which the swab was collected is given.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <udom>The full name of the state in which the swab was collected is given.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>County</attrlabl>
+        <attrdef>TheThe county (or parish in Louisiana) in which the swab was collected is given county (or parish in Louisiana) in which the swab was collected is given</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <udom>The full name of the state in which the swab was collected is given.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Latitude</attrlabl>
+        <attrdef>The degrees latitude of the site where swabs were collected (WGS84). For two records of a sensitive species, locality is withheld and is denoted as NA.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>26.60217</rdommin>
+            <rdommax>48.98806</rdommax>
+            <attrunit>degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Longitude</attrlabl>
+        <attrdef>The degrees longitude of the site where swabs were collected (WGS84). For two records of a sensitive species, locality is withheld and is denoted as NA.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-124.09576</rdommin>
+            <rdommax>-71.4883</rdommax>
+            <attrunit>degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Elevation_m</attrlabl>
+        <attrdef>The elevation of the site where swabs were collected. An NA is denoted where elevation was not recorded.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>3265</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Sex</attrlabl>
+        <attrdef>The sex of the individual swabbed</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Male</edomv>
+            <edomvd>Sex was determined to be male</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Female</edomv>
+            <edomvd>Sex was determined to be female</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Unknown</edomv>
+            <edomvd>Sex was not determined due to age or lack of secondary sexual characteristics.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Age</attrlabl>
+        <attrdef>The age of the swabbed individual. An NA is given when age was not ascertained.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Adult</edomv>
+            <edomvd>Age was determined to be adult.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Juvenile</edomv>
+            <edomvd>Age was determined to be juvenile.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Larval</edomv>
+            <edomvd>Age was determined to be larval.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BodyLength</attrlabl>
+        <attrdef>The body length of the swabbed individual. For amphibians, this is the straight-line distance from the tip of the snout to the vent. It does not include the tail length. An NA is denoted for those records where body length was not measured.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>6</rdommin>
+            <rdommax>622</rdommax>
+            <attrunit>millimeters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CaptureEnvironment</attrlabl>
+        <attrdef>The habitat in which the swabbed animal was captured</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>aquatic</edomv>
+            <edomvd>Captured in aquatic (water) habitats</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>terrestrial</edomv>
+            <edomvd>Captured in terrestrial (land) habitats</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Bsal.Result</attrlabl>
+        <attrdef>binary result for Bsal PCR, positive = detected, negative = not detected</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>negative</edomv>
+            <edomvd>Swab determined to be negative for Bsal</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Case</attrlabl>
+        <attrdef>Internal lab identifier for group of samples received in the same shipment</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>27063</rdommin>
+            <rdommax>28406</rdommax>
+            <attrunit>integer &gt; 0</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Acc</attrlabl>
+        <attrdef>Internal lab identifier for individual sample within a Case</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>446</rdommax>
+            <attrunit>integer &gt; 0</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Bdct</attrlabl>
+        <attrdef>Cycle threshold value from PCR reaction (max=40). Lower values indicate more target DNA in sample.  Measured at the PCR cycle where a signal was detected at 5% of max fluorescence and subsequent signal followed a true amplification curve. NA = no signal detected; No Amp = signal detected, but due to signal noise and not amplification of the target; equivocal = signal detected during last cycle with likely amplification, but reaction cycles stopped before true amplification could be determined.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>not observed</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>9.81</rdommin>
+            <rdommax>40.0</rdommax>
+            <attrunit>positive continuous value minimum = 0, maximum = 40, not observed = NA</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Bd.Result</attrlabl>
+        <attrdef>Interpretation of quantitative PCR results. Positive = true amplification signal detected; Negative = no fluorescent signal detected; No Amp = signal detected, but due to signal noise and not amplification of the target. Manually confirmed during lab QA/QC; equivocal = signal detected during last cycle with likely amplification, but reaction cycles stopped before true amplification could be determined.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>positive</edomv>
+            <edomvd>true amplification signal detected</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>negative</edomv>
+            <edomvd>no fluorescent signal detected</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>copyNum</attrlabl>
+        <attrdef>Calculated estimate of the number of target DNA copies per sample</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>1209654620.10164</rdommax>
+            <attrunit>positive continuous value</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Gesp</attrlabl>
+        <attrdef>Genus and species used to estimate phylogenetic distance</attrdef>
+        <attrdefs>authority</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <udom>Anuran taxonomy according to Matzke, K. Iizuka, M. S. Min, S. L. Kuzmin, Y. P. Zhang, D. C. Cannatella, D. M. Hillis, and J. Che. 2016. Spatiotemporal diversification of the true frogs (Genus Rana): A historical framework for a widely studied group of model organisms. Systematic Biology 65:824–842., Caudate taxonomy according to, Pyron A, Wiens JJ. 2011 A large-scale phylogeny of Amphibia with over 2,800 species, and a revised classification of extant frogs, salamanders, and caecilians. Mol Phy Evol 61: 543-583.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>order</attrlabl>
+        <attrdef>taxonomic order</attrdef>
+        <attrdefs>authority</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Caudata</edomv>
+            <edomvd>Member of the order caudata, commonly known as the salamanders</edomvd>
+            <edomvds>Pyron A, Wiens JJ. 2011 A large-scale phylogeny of Amphibia with over 2,800 species, and a revised classification of extant frogs, salamanders, and caecilians. Mol Phy Evol 61: 543-583.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Anura</edomv>
+            <edomvd>Member of the order anura, commonly known as the frogs and toads</edomvd>
+            <edomvds>Pyron A, Wiens JJ. 2011 A large-scale phylogeny of Amphibia with over 2,800 species, and a revised classification of extant frogs, salamanders, and caecilians. Mol Phy Evol 61: 543-583.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>siteID</attrlabl>
+        <attrdef>numeric index that groups samples within 0.2km to a site</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>593</rdommax>
+            <attrunit>integer &gt; 0</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>siteVID</attrlabl>
+        <attrdef>numeric index for site visits that occurred greater than 5 days apart at each site</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>692</rdommax>
+            <attrunit>integer &gt; 0</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>reg</attrlabl>
+        <attrdef>NOAA climate region where the site was sampled</attrdef>
+        <attrdefs>authority</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>no site location available</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>SE</edomv>
+            <edomvd>Southeast</edomvd>
+            <edomvds>Karl, T. R., and J. Kloss. 1984. Regional and national monthly, seasonal, and annual temperature weighted by area 1895-1983. Historical Climatology Series 4–3:38.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>SW</edomv>
+            <edomvd>Southwest</edomvd>
+            <edomvds>Karl, T. R., and J. Kloss. 1984. Regional and national monthly, seasonal, and annual temperature weighted by area 1895-1983. Historical Climatology Series 4–3:38.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>S</edomv>
+            <edomvd>South</edomvd>
+            <edomvds>Karl, T. R., and J. Kloss. 1984. Regional and national monthly, seasonal, and annual temperature weighted by area 1895-1983. Historical Climatology Series 4–3:38.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>W</edomv>
+            <edomvd>West</edomvd>
+            <edomvds>Karl, T. R., and J. Kloss. 1984. Regional and national monthly, seasonal, and annual temperature weighted by area 1895-1983. Historical Climatology Series 4–3:38.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NE</edomv>
+            <edomvd>Northeast</edomvd>
+            <edomvds>Karl, T. R., and J. Kloss. 1984. Regional and national monthly, seasonal, and annual temperature weighted by area 1895-1983. Historical Climatology Series 4–3:38.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>OV</edomv>
+            <edomvd>Ohio Valley</edomvd>
+            <edomvds>Karl, T. R., and J. Kloss. 1984. Regional and national monthly, seasonal, and annual temperature weighted by area 1895-1983. Historical Climatology Series 4–3:38.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UM</edomv>
+            <edomvd>Upper Midwest</edomvd>
+            <edomvds>Karl, T. R., and J. Kloss. 1984. Regional and national monthly, seasonal, and annual temperature weighted by area 1895-1983. Historical Climatology Series 4–3:38.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NRP</edomv>
+            <edomvd>Northern Rockies and Plains</edomvd>
+            <edomvds>Karl, T. R., and J. Kloss. 1984. Regional and national monthly, seasonal, and annual temperature weighted by area 1895-1983. Historical Climatology Series 4–3:38.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NW</edomv>
+            <edomvd>Northwest</edomvd>
+            <edomvds>Karl, T. R., and J. Kloss. 1984. Regional and national monthly, seasonal, and annual temperature weighted by area 1895-1983. Historical Climatology Series 4–3:38.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>KGzone</attrlabl>
+        <attrdef>3rd level Köppen-Geiger climate zone where the sample was collected</attrdef>
+        <attrdefs>authority</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>no site location available</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Cfa</edomv>
+            <edomvd>Temperate, No Dry season, Hot summer</edomvd>
+            <edomvds>Köppen, W., E. Volken, and S. Brönnimann. 2011. The thermal zones of the Earth according to the duration of hot, moderate and cold periods and to the impact of heat on the organic world. Meteorologische Zeitschrift 20:351–360.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>BSk</edomv>
+            <edomvd>Dry, Semi-Arid, Cold</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>BSh</edomv>
+            <edomvd>Dry, Semi-Arid Hot</edomvd>
+            <edomvds>Köppen, W., E. Volken, and S. Brönnimann. 2011. The thermal zones of the Earth according to the duration of hot, moderate and cold periods and to the impact of heat on the organic world. Meteorologische Zeitschrift 20:351–360.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Csb</edomv>
+            <edomvd>Temperate, Dry Summer, warm summer</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Csa</edomv>
+            <edomvd>Temperate, dry summer, hot summer</edomvd>
+            <edomvds>Köppen, W., E. Volken, and S. Brönnimann. 2011. The thermal zones of the Earth according to the duration of hot, moderate and cold periods and to the impact of heat on the organic world. Meteorologische Zeitschrift 20:351–360.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>BWh</edomv>
+            <edomvd>Dry, Arid, Hot</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Dfb</edomv>
+            <edomvd>Continental, No dry season, warm summer</edomvd>
+            <edomvds>Köppen, W., E. Volken, and S. Brönnimann. 2011. The thermal zones of the Earth according to the duration of hot, moderate and cold periods and to the impact of heat on the organic world. Meteorologische Zeitschrift 20:351–360.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Dfc</edomv>
+            <edomvd>Continental, No Dry season, cold summer</edomvd>
+            <edomvds>Köppen, W., E. Volken, and S. Brönnimann. 2011. The thermal zones of the Earth according to the duration of hot, moderate and cold periods and to the impact of heat on the organic world. Meteorologische Zeitschrift 20:351–360.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Dfa</edomv>
+            <edomvd>Continental, No Dry season, hot summer</edomvd>
+            <edomvds>Köppen, W., E. Volken, and S. Brönnimann. 2011. The thermal zones of the Earth according to the duration of hot, moderate and cold periods and to the impact of heat on the organic world. Meteorologische Zeitschrift 20:351–360.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Cfb</edomv>
+            <edomvd>Temperate, No Dry season, warm summer</edomvd>
+            <edomvds>Köppen, W., E. Volken, and S. Brönnimann. 2011. The thermal zones of the Earth according to the duration of hot, moderate and cold periods and to the impact of heat on the organic world. Meteorologische Zeitschrift 20:351–360.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>KG5</attrlabl>
+        <attrdef>2nd level Köppen-Geiger climate zone where the sample was collected</attrdef>
+        <attrdefs>authority</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>no site location available</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Cf</edomv>
+            <edomvd>Temperate No Dry Season</edomvd>
+            <edomvds>Köppen, W., E. Volken, and S. Brönnimann. 2011. The thermal zones of the Earth according to the duration of hot, moderate and cold periods and to the impact of heat on the organic world. Meteorologische Zeitschrift 20:351–360.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>BS</edomv>
+            <edomvd>Dry, Semi-arid</edomvd>
+            <edomvds>Köppen, W., E. Volken, and S. Brönnimann. 2011. The thermal zones of the Earth according to the duration of hot, moderate and cold periods and to the impact of heat on the organic world. Meteorologische Zeitschrift 20:351–360.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Cs</edomv>
+            <edomvd>Temperate, Dry summer</edomvd>
+            <edomvds>Köppen, W., E. Volken, and S. Brönnimann. 2011. The thermal zones of the Earth according to the duration of hot, moderate and cold periods and to the impact of heat on the organic world. Meteorologische Zeitschrift 20:351–360.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>BW</edomv>
+            <edomvd>Dry, Arid desert</edomvd>
+            <edomvds>Köppen, W., E. Volken, and S. Brönnimann. 2011. The thermal zones of the Earth according to the duration of hot, moderate and cold periods and to the impact of heat on the organic world. Meteorologische Zeitschrift 20:351–360.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Df</edomv>
+            <edomvd>Continental, No Dry Season</edomvd>
+            <edomvds>Köppen, W., E. Volken, and S. Brönnimann. 2011. The thermal zones of the Earth according to the duration of hot, moderate and cold periods and to the impact of heat on the organic world. Meteorologische Zeitschrift 20:351–360.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>KG3</attrlabl>
+        <attrdef>1st level Köppen-Geiger climate zone where the sample was collected</attrdef>
+        <attrdefs>authority</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>no site location available</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>C</edomv>
+            <edomvd>Temperate</edomvd>
+            <edomvds>Köppen, W., E. Volken, and S. Brönnimann. 2011. The thermal zones of the Earth according to the duration of hot, moderate and cold periods and to the impact of heat on the organic world. Meteorologische Zeitschrift 20:351–360.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>B</edomv>
+            <edomvd>Dry</edomvd>
+            <edomvds>Köppen, W., E. Volken, and S. Brönnimann. 2011. The thermal zones of the Earth according to the duration of hot, moderate and cold periods and to the impact of heat on the organic world. Meteorologische Zeitschrift 20:351–360.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Continental</edomvd>
+            <edomvds>Köppen, W., E. Volken, and S. Brönnimann. 2011. The thermal zones of the Earth according to the duration of hot, moderate and cold periods and to the impact of heat on the organic world. Meteorologische Zeitschrift 20:351–360.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>m1max</attrlabl>
+        <attrdef>maximum daily temperature estimated at the day of sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-2.12100005149841</rdommin>
+            <rdommax>41.4440002441406</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>m7max</attrlabl>
+        <attrdef>average maximum daily temperature estimated for the 7 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-4.3361428124564</rdommin>
+            <rdommax>37.9541435241699</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>m10max</attrlabl>
+        <attrdef>average maximum daily temperature estimated for the 10 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-4.76909995079041</rdommin>
+            <rdommax>37.5731006622314</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>m20max</attrlabl>
+        <attrdef>average maximum daily temperature estimated for the 20 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-1.23154997825623</rdommin>
+            <rdommax>36.6817002296448</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>m30max</attrlabl>
+        <attrdef>average maximum daily temperature estimated for the 30 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-0.379466656843821</rdommin>
+            <rdommax>36.8477333704631</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>m40max</attrlabl>
+        <attrdef>average maximum daily temperature estimated for the 40 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.48657501488924</rdommin>
+            <rdommax>35.7372999191284</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>m50max</attrlabl>
+        <attrdef>average maximum daily temperature estimated for the 50 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.270380011945963</rdommin>
+            <rdommax>35.505479888916</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>m60max</attrlabl>
+        <attrdef>average maximum daily temperature estimated for the 60 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-1.23033336053292</rdommin>
+            <rdommax>35.2114498774211</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>m70max</attrlabl>
+        <attrdef>average maximum daily temperature estimated for the 70 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-1.78474287773882</rdommin>
+            <rdommax>34.8333427701678</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>m80max</attrlabl>
+        <attrdef>average maximum daily temperature estimated for the 80 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-1.91463751154952</rdommin>
+            <rdommax>33.9648499488831</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>m90max</attrlabl>
+        <attrdef>average maximum daily temperature estimated for the 90 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-1.404355569308</rdommin>
+            <rdommax>33.4265222549438</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>m100max</attrlabl>
+        <attrdef>average maximum daily temperature estimated for the 100 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-0.750490018986166</rdommin>
+            <rdommax>33.201130065918</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>m110max</attrlabl>
+        <attrdef>average maximum daily temperature estimated for the 110 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-0.590272747488184</rdommin>
+            <rdommax>32.8168909593062</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>m120max</attrlabl>
+        <attrdef>average maximum daily temperature estimated for the 120 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.068949979947259</rdommin>
+            <rdommax>32.445316696167</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>m1min</attrlabl>
+        <attrdef>minimum daily temperature estimated at the day of sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-11.0030002593994</rdommin>
+            <rdommax>25.3959999084473</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>m7min</attrlabl>
+        <attrdef>average minimum daily temperature estimated for the 7 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-14.4977144513811</rdommin>
+            <rdommax>25.9345716748919</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>m10min</attrlabl>
+        <attrdef>average minimum daily temperature estimated for the 10 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-14.6392001152039</rdommin>
+            <rdommax>25.2576002120972</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>m20min</attrlabl>
+        <attrdef>average minimum daily temperature estimated for the 20 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-12.010050034523</rdommin>
+            <rdommax>25.2548999786377</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>m30min</attrlabl>
+        <attrdef>average minimum daily temperature estimated for the 30 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-11.1107666889826</rdommin>
+            <rdommax>25.0179000854492</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>m40min</attrlabl>
+        <attrdef>average minimum daily temperature estimated for the 40 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-9.89960002303124</rdommin>
+            <rdommax>25.0793500900269</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>m50min</attrlabl>
+        <attrdef>average minimum daily temperature estimated for the 50 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-10.0703800296783</rdommin>
+            <rdommax>25.0300600814819</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>m60min</attrlabl>
+        <attrdef>average minimum daily temperature estimated for the 60 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-9.63909999827544</rdommin>
+            <rdommax>24.9606167475382</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>m70min</attrlabl>
+        <attrdef>average minimum daily temperature estimated for the 70 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-10.134142854384</rdommin>
+            <rdommax>25.1061286381313</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>m80min</attrlabl>
+        <attrdef>average minimum daily temperature estimated for the 80 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-9.97512500211596</rdommin>
+            <rdommax>24.9785000801086</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>m90min</attrlabl>
+        <attrdef>average minimum daily temperature estimated for the 90 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-9.37382222182221</rdommin>
+            <rdommax>24.8689222759671</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>m100min</attrlabl>
+        <attrdef>average minimum daily temperature estimated for the 100 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-8.72084999567829</rdommin>
+            <rdommax>24.7487600517273</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>m110min</attrlabl>
+        <attrdef>average minimum daily temperature estimated for the 110 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-8.43286363000728</rdommin>
+            <rdommax>24.5233000321822</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>m120min</attrlabl>
+        <attrdef>average minimum daily temperature estimated for the 120 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-8.28559162636908</rdommin>
+            <rdommax>24.2375416596731</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>t1precip</attrlabl>
+        <attrdef>total precipitation estimated on the day of sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>53.1570014953613</rdommax>
+            <attrunit>millimeters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>t7precip</attrlabl>
+        <attrdef>total precipitation estimated over the 7 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>211.193001445383</rdommax>
+            <attrunit>millimeters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>t10precip</attrlabl>
+        <attrdef>total precipitation estimated over the 10 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>211.193001445383</rdommax>
+            <attrunit>millimeters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>t20precip</attrlabl>
+        <attrdef>total precipitation estimated over the 20 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>388.180000789464</rdommax>
+            <attrunit>millimeters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>t30precip</attrlabl>
+        <attrdef>total precipitation estimated over the 30 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>449.148995749652</rdommax>
+            <attrunit>millimeters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>t40precip</attrlabl>
+        <attrdef>total precipitation estimated over the 40 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>530.477995090187</rdommax>
+            <attrunit>millimeters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>t50precip</attrlabl>
+        <attrdef>total precipitation estimated over the 50 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>603.063001116621</rdommax>
+            <attrunit>millimeters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>t60precip</attrlabl>
+        <attrdef>total precipitation estimated over the 60 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>806.481998801231</rdommax>
+            <attrunit>millimeters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>t70precip</attrlabl>
+        <attrdef>total precipitation estimated over the 70 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>998.462995380163</rdommax>
+            <attrunit>millimeters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>t80precip</attrlabl>
+        <attrdef>total precipitation estimated over the 80 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>1049.34500417113</rdommax>
+            <attrunit>millimeters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>t90precip</attrlabl>
+        <attrdef>total precipitation estimated over the 90 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>1440.03400170803</rdommax>
+            <attrunit>millimeters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>t100precip</attrlabl>
+        <attrdef>total precipitation estimated over the 100 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>1557.1929987669</rdommax>
+            <attrunit>millimeters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>t110precip</attrlabl>
+        <attrdef>total precipitation estimated over the 110 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>1689.18400156498</rdommax>
+            <attrunit>millimeters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>t120precip</attrlabl>
+        <attrdef>total precipitation estimated over the 120 days preceding sampling</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>site location or date not recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.384999997913837</rdommin>
+            <rdommax>1892.12900030613</rdommax>
+            <attrunit>millimeters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey - ScienceBase</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Digital Data</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.5066/P9BGQA1T</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20241129</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Hardin Waddle</cntper>
+          <cntorg>U.S. Geological Survey, Southeast Region</cntorg>
+        </cntperp>
+        <cntpos>Research Ecologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>7920 NW 71St Street</address>
+          <city>Gainesville</city>
+          <state>FL</state>
+          <postal>32653</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>352-264-3524</cntvoice>
+        <cntfax>352-378-4956</cntfax>
+        <cntemail>waddleh@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+  </metainfo>
+</metadata>
