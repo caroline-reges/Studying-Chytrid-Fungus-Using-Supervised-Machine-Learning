@@ -91,12 +91,17 @@ Does it have conclusions or discussions? E.g. the EDA summary, findings, discuss
 
 Starting off, I had to drop a few features. Some were more sample identifiers: **SwabID**, **Case**, and **Acc**. Some were essentially the same as other features already in the table, for example each scientific name was assigned a TaxaID, so I didn't need both. Those dropped due to being the same as other features: **TaxaID**, **Gesp**, **siteID**, **siteVID**. Some features were dropped because they were used to determine the values of other features, like a few columns were used to determine the value in the Bd column, which are: **Bdct** and **copyNum**. I chose to drop the **SiteName** and **County** features because I thought the locations were too specific for how broad the study location was. I also dropped **Bsal.Result** because all of the values were negative. 
 
-I wanted to extract data from a couple of the features. I dropped the **ScientificName** feature and replaced it with separate Genus and Species features. I also dropped the **CollectionDate** feature, and replaced it with separate Month and Year features. 
-
-Then I looked at all of my features, to check the number of unique values. That helped me realize I should drop the **Genus** column I made, because there was only one Genus. 
+I wanted to extract data from a couple of the features. I dropped the **ScientificName** feature and replaced it with separate Genus and Species features. I also dropped the **CollectionDate** feature, and replaced it with separate Month and Year features.  
 
 Then I looked at the features with missing values, and dropped all rows containing missing values. This brought me from 11,189 samples to 7,663 samples. 
 
+Then, I wanted to scale some of my features with larger values, so all of my numbers are within a similar range, which is necessary for logistic regression. I changed Year, Elevation, and all of the precipitation features. 
+
+The next thing I had to do to prep my dataset was convert all of my categorical variables to numeric variables, because I can't use categorical variables in my logistic regression model. 
+
+Finally before making my model, I wanted to check for correlations. I first removed all but one temperature and precipitation variable, because I knew that all the precipitation and temperature measurements would be correlated. I kept m60max and t60precip_100. While there were some correlated variables, none seemed particularly surprising to me, like the KGzone is related to KG5 and KG3, so I will keep all the variables for now.
+
+![Correlation Heatmap](images/correlation_heatmap.png)
 
 
 4. Model Building / Model Choice (15 pts)
