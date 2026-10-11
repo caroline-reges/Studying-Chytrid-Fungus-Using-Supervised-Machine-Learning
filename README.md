@@ -126,8 +126,22 @@ Did the author compare the results from the multiple models and carry out approp
 Grading Criteria:
 Example Score Breakdown: Showing basic result +10 pts with a good amount of visualization +5 pts, tries different evaluation metrics +5 pts, iterates training/evaluating and improves performance +5, shows/discusses model comparison +5 pts.
 
+### Logistic Regression
+
+For my logisitc regression model, I wanted to start by checking my hyperparameters. For logistic regression, I just wanted to check the values of C. With C=0.1, the model's accuracy was 0.783, which is slightly better than the original 0.780, but not much higher.
+![Logistic Regression Validatino Accuracy](LG_GridSearch_Heatmap.png)
+
+### Random Forest
+
+For my random forest model, I wanted to start by checking the precision, recall, and accuracy of the baseline model with the training and test data, to check for overfitting I ended up with:
 
 
+
+### CatBoost
+
+For my CatBoost model, I wanted to start by checking the precision, recall, and accuracy of the baseline model with the training and test data, to check for overfitting I ended up with:
+
+![CatBoost Training vs. Test Performance](CatBoost_Train_Test.png)
 
 7. Discussion and Conclusion (10 pts)
 
