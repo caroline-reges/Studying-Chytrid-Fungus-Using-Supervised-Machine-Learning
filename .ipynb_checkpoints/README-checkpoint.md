@@ -4,8 +4,8 @@
 
 Chytrid fungus is a skin disease that eventually causes death in many species, and contributes to the decline in many amphibian species all around the globe. I wanted to create a few classification models to try and predict whether an amphibian does or does not test positive for chytrid fungus, based on data about the animal, and its surrounding environment. I also want to make a separate model with just environmental data (nothing about the specific animals) to see if just that data is enough to predict whether a animal may test positive for chytrid fungus. 
 
+## Data
 
-2. Data (5 pts)
 This project uses a dataset from the U.S. Geological Survey that shows the presence of absence of of chytrid fungus all around North America (mostly the U.S.). This survey occured from May 2014 to August 2017, and each amphibian was swabbed to see if they tested positive for chytrid fungus or not. The dataset includes information about the animal itself, as well as the surrounding environment.
 
 https://data.usgs.gov/datacatalog/data/USGS:5af5ef0de4b0da30c1b5f9eb
@@ -80,14 +80,25 @@ The dataset is a 7.58 MB csv file, and includes 11,189 samples and 70 features. 
 
 * t7precip, t10precip, t20precip, t30precip, t40precip, t50precip, t60precip, t70precip, t80precip, t90precip, t100precip, t110precip, t120precip: total precipitation estimated over the 7, 10, 20, etc days preceding sampling. Numeric.
 
-
-3. Data Cleaning and EDA (10 pts)
+## Data Cleaning and EDA
 
 Does it include clear explanations on how and why a cleaning is performed? (e.g.) the author decided to drop a feature because it had too many NaN values and the data cannot be imputed (e.g.) the author decided to impute certain values in a feature because the number of missing values were small and he/she was able to find similar samples OR, he/she used an average value or interpolated value, etc. (e.g.) the author removed some features because there are too many of them and they are not relevant to the problem, or he/she knows only a few certain features are important based on their domain knowledge judgement. (e.g.) the author removed certain sample (row) or a value because it is an outlier.
 Does it include clear explanations on how and why an certain analysis (EDA) is performed?
 Does it have proper visualization?
 Does it have proper analysis? E.g. histogram, correlation matrix, feature importance (if possible), etc.
 Does it have conclusions or discussions? E.g. the EDA summary, findings, discussing foreseen difficulties and/or analysis strategy.
+
+
+Starting off, I had to drop a few features. Some were more sample identifiers: **SwabID**, **Case**, and **Acc**. Some were essentially the same as other features already in the table, for example each scientific name was assigned a TaxaID, so I didn't need both. Those dropped due to being the same as other features: **TaxaID**, **Gesp**, **siteID**, **siteVID**. Some features were dropped because they were used to determine the values of other features, like a few columns were used to determine the value in the Bd column, which are: **Bdct** and **copyNum**. I chose to drop the **SiteName** and **County** features because I thought the locations were too specific for how broad the study location was. I also dropped **Bsal.Result** because all of the values were negative. 
+
+I wanted to extract data from a couple of the features. I dropped the **ScientificName** feature and replaced it with separate Genus and Species features. I also dropped the **CollectionDate** feature, and replaced it with separate Month and Year features. 
+
+Then I looked at all of my features, to check the number of unique values. That helped me realize I should drop the **Genus** column I made, because there was only one Genus. 
+
+Then I looked at the features with missing values, and dropped all rows containing missing values. This brought me from 11,189 samples to 7,663 samples. 
+
+
+
 4. Model Building / Model Choice (15 pts)
 
 Which models are suitable for my problem and why?
