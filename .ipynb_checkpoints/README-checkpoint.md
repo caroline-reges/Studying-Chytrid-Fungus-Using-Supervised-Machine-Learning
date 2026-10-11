@@ -102,7 +102,6 @@ There are many models suitable for this problem. The first model I wanted to use
 
 ## Model Training
 
-How to find best hyperparameters of a model?
 Is there overfitting? How to check, how to mitigate?
 Are all features needed? Why or why not? If so, how can I choose features?
 What are the important features?
@@ -110,9 +109,6 @@ Do I have imbalanced classes in my data? What to do?
 Grading Criteria:
 Base 5 pts: Did basic model training with some hyperparameter tuning.
 Add any additional points. You can also give partial points to these based on your judgement.
-+ 3 pts: Did a though hyperparameter tuning (manual or uses sklearn library's grid search function).
-+ 3 pts: Include train and test error analysis and visualization (e.g. elbow curve) while searching hyper parameters.
-+ 3 pts: Use of cross validation or methods to monitor or mitigate overfitting
 + 3 pts: Use feature selection or feature engineering. Or does extra analysis on feature rankings (feature importance)
 + 3 pts: If the data's classes are imbalanced - uses methods to mitigate class imbalance (e.g.) oversampling or undersampling or using synthesized data (SMOTE) or setting model's option to adjust class weights if available. Must explain why they made these choices explicitly. Using a model library's default options (even when it has set to use these weights by default) will not qualify.
 6. Results and Analysis (20 pts)
@@ -129,18 +125,32 @@ Example Score Breakdown: Showing basic result +10 pts with a good amount of visu
 ### Logistic Regression
 
 For my logisitc regression model, I wanted to start by checking my hyperparameters. For logistic regression, I just wanted to check the values of C. With C=0.1, the model's accuracy was 0.783, which is slightly better than the original 0.780, so I will use this tuned model going forward.
+
 ![Logistic Regression Validation Accuracy](images/LG_GridSearch_Heatmap.png)
+
+Next I used kfold cross validation to test for overfitting. The training average accuracy was 77.5%, and the test average accuracy was 77%, so I did not see signs of overfitting. 
+
+Note: I did not check the feature importance for my logisitic regression model as that is not a feature available for logistic regression models.
 
 ### Random Forest
 
 For my random forest model, I wanted to start by checking my hyperparameters. For random forets, I wanted to check the n_estimators, max_depth, min_samples_split. This predicted the best model to be n_estimators = 300, max_depth = 10, and min_samples_split = 5, and the model accuracy slightly increased from 0.82 to 0.83, so I will use this model going forward
 
+Next I used kfold cross validation to test for overfitting. The training average accuracy was 83%, and the test average accuracy was 81%, which I wouldn't see as a major concern for overfitting.
+
+Next, I was curious how the model ranked feature importance, so I made a list of the top 20 features
+
+![RF top 20 features](images/RF_top_20.png)
 
 ### CatBoost
 
 For my CatBoost model, I wanted to start by checking my hyperparameters. For CatBoost, I wanted to check iterations, depth, and learning_rate. This predicted the best model to be iterations = 1000 and depth = 4. This caused the model accuracy to decrease slightly, from 0.83 to 0.83, so I will stick to the original model going forward.
 
+Next I used kfold cross validation to test for overfitting. The training average accuracy was 86%, and the test average accuracy was 83%, which I wouldn't see as a major concern for overfitting.
 
+Next, I was curious how the model ranked feature importance, so I made a list of the top 20 features
+
+![cat top 20 features](images/cat_top_20.png)
 
 7. Discussion and Conclusion (10 pts)
 
