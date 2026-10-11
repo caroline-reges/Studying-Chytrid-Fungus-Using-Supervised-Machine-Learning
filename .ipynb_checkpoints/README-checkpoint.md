@@ -82,13 +82,6 @@ The dataset is a 7.58 MB csv file, and includes 11,189 samples and 70 features. 
 
 ## Data Cleaning and EDA
 
-Does it include clear explanations on how and why a cleaning is performed? (e.g.) the author decided to drop a feature because it had too many NaN values and the data cannot be imputed (e.g.) the author decided to impute certain values in a feature because the number of missing values were small and he/she was able to find similar samples OR, he/she used an average value or interpolated value, etc. (e.g.) the author removed some features because there are too many of them and they are not relevant to the problem, or he/she knows only a few certain features are important based on their domain knowledge judgement. (e.g.) the author removed certain sample (row) or a value because it is an outlier.
-Does it include clear explanations on how and why an certain analysis (EDA) is performed?
-Does it have proper visualization?
-Does it have proper analysis? E.g. histogram, correlation matrix, feature importance (if possible), etc.
-Does it have conclusions or discussions? E.g. the EDA summary, findings, discussing foreseen difficulties and/or analysis strategy.
-
-
 Starting off, I had to drop a few features. Some were more sample identifiers: **SwabID**, **Case**, and **Acc**. Some were essentially the same as other features already in the table, for example each scientific name was assigned a TaxaID, so I didn't need both. Those dropped due to being the same as other features: **TaxaID**, **Gesp**, **siteID**, **siteVID**. Some features were dropped because they were used to determine the values of other features, like a few columns were used to determine the value in the Bd column, which are: **Bdct** and **copyNum**. I chose to drop the **SiteName** and **County** features because I thought the locations were too specific for how broad the study location was. I also dropped **Bsal.Result** because all of the values were negative. 
 
 I wanted to extract data from a couple of the features. I dropped the **ScientificName** feature and replaced it with separate Genus and Species features. I also dropped the **CollectionDate** feature, and replaced it with separate Month and Year features.  
@@ -99,21 +92,15 @@ Then, I wanted to scale some of my features with larger values, so all of my num
 
 The next thing I had to do to prep my dataset was convert all of my categorical variables to numeric variables, because I can't use categorical variables in my logistic regression model. 
 
-Finally before making my model, I wanted to check for correlations. I first removed all but one temperature and precipitation variable, because I knew that all the precipitation and temperature measurements would be correlated. I kept m60max and t60precip_100. While there were some correlated variables, none seemed particularly surprising to me, like the KGzone is related to KG5 and KG3, so I will keep all the variables for now.
+Finally before making my model, I wanted to check for correlations. I first removed all but one temperature and precipitation variable, because I knew that all the precipitation and temperature measurements would be correlated. I kept m60max and t60precip_100. While there were some correlated variables, none seemed particularly surprising to me, like the KGzone is related to KG5 and KG3. My issue is I don't know which of the weather-related variables are most important, so I can't get rid of any of them right now, but it may cause some issues later on. 
 
 ![Correlation Heatmap](images/correlation_heatmap.png)
 
+## Model Building / Model Choice
 
-4. Model Building / Model Choice (15 pts)
+There are many models suitable for this problem. The first model I wanted to use was logistic regression, because it is a very common to use when there are two categorical outcomes, and it is a good baseline model. I also wanted to try a Random Forest model, because I know I have too many correlated features, and I thought Random Forest could help me prevent overfitting, and determine which of the correlated features are most important. The last model I wanted to try was CatBoost, because this is better for datasets that contain a high number of categorical features, which my dataset does. For CatBoost, I can specify which of my features are categorical versus numeric, which I can't do in logisitc regression or random forest. I had to assign arbitrary numbers to all of the categorical variables in my logistic regression and random forest models, which would imply that there is some order to the variables when there isn't. 
 
-Which models are suitable for my problem and why?
-Compare with a baseline model(s); baseline means a simple, easy to check model.
-Grading Criteria:
-  How many models have been used and compared? You may give partial credit based on your judgement.
-Compares 1-2 models (5 pts)
-Compares 3 or more models (10 pts)
-Compares multiple models (3 or more) and includes reasoning of why chosen models are suitable for the problem (before getting results). Also may include a simple (or lesser performing model) for baseline comparison. (15 pts)
-5. Model Training (15 pts)
+## Model Training
 
 How to find best hyperparameters of a model?
 Is there overfitting? How to check, how to mitigate?
@@ -138,6 +125,10 @@ Does it iterate the training and evaluation process and improve the performance?
 Did the author compare the results from the multiple models and carry out appropriate comparison?
 Grading Criteria:
 Example Score Breakdown: Showing basic result +10 pts with a good amount of visualization +5 pts, tries different evaluation metrics +5 pts, iterates training/evaluating and improves performance +5, shows/discusses model comparison +5 pts.
+
+
+
+
 7. Discussion and Conclusion (10 pts)
 
 Provide conclusions from your result. Discuss what went well or not well. Discuss any suggestions to improve.
