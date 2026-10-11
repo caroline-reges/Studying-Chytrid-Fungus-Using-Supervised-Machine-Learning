@@ -128,18 +128,18 @@ Example Score Breakdown: Showing basic result +10 pts with a good amount of visu
 
 ### Logistic Regression
 
-For my logisitc regression model, I wanted to start by checking my hyperparameters. For logistic regression, I just wanted to check the values of C. With C=0.1, the model's accuracy was 0.783, which is slightly better than the original 0.780, but not much higher.
+For my logisitc regression model, I wanted to start by checking my hyperparameters. For logistic regression, I just wanted to check the values of C. With C=0.1, the model's accuracy was 0.783, which is slightly better than the original 0.780, so I will use this tuned model going forward.
 ![Logistic Regression Validation Accuracy](images/LG_GridSearch_Heatmap.png)
 
 ### Random Forest
 
-For my random forest model, I wanted to start by checking the precision, recall, and accuracy of the baseline model with the training and test data, to check for overfitting I ended up with:
-
+For my random forest model, I wanted to start by checking my hyperparameters. For random forets, I wanted to check the n_estimators, max_depth, min_samples_split. This predicted the best model to be n_estimators = 300, max_depth = 10, and min_samples_split = 5, and the model accuracy slightly increased from 0.82 to 0.83, so I will use this model going forward
 
 
 ### CatBoost
 
-For my CatBoost model, I wanted to start by checking the precision, recall, and accuracy of the baseline model with the training and test data, to check for overfitting I ended up with:
+For my CatBoost model, I wanted to start by checking my hyperparameters. For CatBoost, I wanted to check iterations, depth, and learning_rate. This predicted the best model to be iterations = 1000 and depth = 4. This caused the model accuracy to decrease slightly, from 0.83 to 0.83, so I will stick to the original model going forward.
+
 
 
 7. Discussion and Conclusion (10 pts)
