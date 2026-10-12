@@ -155,14 +155,21 @@ As another way to test the performance of the model, I made an ROC curve, which 
 
 ## Discussion and Conclusion
 
+The main question I wanted to explore with this dataset is what is the best model, which I believe is the CatBoost model, but all three performed very well. I believe CatBoost performed the best because it better accounts for the categorical features than the other model types. 
+
+The second question I wanted to explore was, after finding out the best model, how does it perform without any species-related features? My intention behind this was to allow people to predict which areas of the country are most likely to have chytrid fungus. The ROC curve of the model without any species-related shows that the model still performs very well. 
+
+![ROC Curve environment CatBoost](images/cat_environment_AUC_Score.png)
+
+It also has a different top 20 features.
+
+![cat top 20 features environment](images/cat_environment_top_20.png)
+
+This tells me that just the environmental variables are a good predictor of whether or not amphibians will test positive for chytrid fungus. If there are any future versions of this study, I would like to try this model again to see how well it actually holds up, because so far I only know that this model will work for this specific dataset. I also wonder how well this model will hold up with the effects of climate change, as that could impact how chytrid fungus will spread. 
+
 There is more I would like to try with this project when I have the time. One thing I noticed when playing around with the data is that there is an issue with class imbalance. A large majority of the dataset is from one species. It's such a large majority that I didn't try and use machine learning methods to mitigate class imbalance, but this is something I'd like to try in the future. 
 
 ![Species Distribution](images/species_distribution.png)
 
-Another thing I'd like to try with this project is to reduce the number of features in the model. I had played around with it some, by ranking the features by importance, and only keeping the most important precipitation and temperature features, and getting rid of the rest. But it reduced the accuracy of the model, and I couldn't figure out exactly which features to keep and which not to keep, so I would like to work on this more.
+Another thing I'd like to try with this project is to reduce the number of features in the model. I had played around with it some, by ranking the features by importance, and only keeping the most important precipitation and temperature features, and getting rid of the rest. But it reduced the accuracy of the model, and I couldn't figure out exactly which features to keep and which not to keep, so I would like to work on this more. 
 
-7. Discussion and Conclusion (10 pts)
-
-Provide conclusions from your result. Discuss what went well or not well. Discuss any suggestions to improve.
-Grading Criteria:
-Example Score Breakdown: Basic reiteration of results +5 pts, discusses why something didn't work +5 pts (additional +5 pts for going back to modeling and trying more analysis), suggests ways to improve +5 pts.
