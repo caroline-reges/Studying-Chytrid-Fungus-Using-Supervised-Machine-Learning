@@ -92,7 +92,7 @@ Then, I wanted to scale some of my features with larger values, so all of my num
 
 The next thing I had to do to prep my dataset was convert all of my categorical variables to numeric variables, because I can't use categorical variables in my logistic regression model. 
 
-Finally before making my model, I wanted to check for correlations. I first removed all but one temperature and precipitation variable, because I knew that all the precipitation and temperature measurements would be correlated. I kept m60max and t60precip_100. While there were some correlated variables, none seemed particularly surprising to me, like the KGzone is related to KG5 and KG3. My issue is I don't know which of the weather-related variables are most important, so I can't get rid of any of them right now, but it may cause some issues later on. 
+Finally before making my model, I wanted to check for correlations. Just for this figure below (not for the whole project), I removed all but one temperature and precipitation variable, because I knew that all the precipitation and temperature measurements would be correlated, to make the figure easier to see. I kept m60max and t60precip_100. While there were some correlated variables, none seemed particularly surprising to me, like the KGzone is related to KG5 and KG3. My issue is I don't know which of the weather-related variables are most important, so I can't get rid of any of them right now, but it may cause some issues later on. 
 
 ![Correlation Heatmap](images/correlation_heatmap.png)
 
