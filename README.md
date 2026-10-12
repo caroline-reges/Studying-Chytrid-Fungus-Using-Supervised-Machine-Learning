@@ -102,15 +102,6 @@ There are many models suitable for this problem. The first model I wanted to use
 
 ## Model Training / Results
 
-Things to consider:
-Does it have a summary of results and analysis?
-Does it have a proper visualization? (e.g. tables, graphs/plots, heat maps, statistics summary with interpretation etc)
-Does it use different kinds of evaluation metric properly? (e.g. if your data is imbalance, there are other metrics F1, ROC or AUC better than mere accuracy). Also does it explain why they chose the metric?
-Does it iterate the training and evaluation process and improve the performance? Does it address selecting features through the iteration process?
-Did the author compare the results from the multiple models and carry out appropriate comparison?
-Grading Criteria:
-Example Score Breakdown: Showing basic result +10 pts with a good amount of visualization +5 pts, tries different evaluation metrics +5 pts, iterates training/evaluating and improves performance +5, shows/discusses model comparison +5 pts.
-
 ### Logistic Regression
 
 For my logisitc regression model, I wanted to start by checking my hyperparameters. For logistic regression, I just wanted to check the values of C. With C=0.1, the model's accuracy was 0.783, which is slightly better than the original 0.780, so I will use this tuned model going forward.
@@ -155,7 +146,7 @@ As another way to test the performance of the model, I made an ROC curve, which 
 
 ## Discussion and Conclusion
 
-The main question I wanted to explore with this dataset is what is the best model, which I believe is the CatBoost model, but all three performed very well. I believe CatBoost performed the best because it better accounts for the categorical features than the other model types. 
+The main question I wanted to explore with this dataset is what is the best model, which I believe is the CatBoost model because it had the highest accuracy and the best AUC curve. But all models performed well. I believe CatBoost performed the best because it better accounts for the categorical features than the other model types. 
 
 The second question I wanted to explore was, after finding out the best model, how does it perform without any species-related features? My intention behind this was to allow people to predict which areas of the country are most likely to have chytrid fungus. The ROC curve of the model without any species-related shows that the model still performs very well. 
 
