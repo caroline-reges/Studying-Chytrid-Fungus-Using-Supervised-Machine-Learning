@@ -100,18 +100,7 @@ Finally before making my model, I wanted to check for correlations. I first remo
 
 There are many models suitable for this problem. The first model I wanted to use was logistic regression, because it is a very common to use when there are two categorical outcomes, and it is a good baseline model. I also wanted to try a Random Forest model, because I know I have too many correlated features, and I thought Random Forest could help me prevent overfitting, and determine which of the correlated features are most important. The last model I wanted to try was CatBoost, because this is better for datasets that contain a high number of categorical features, which my dataset does. For CatBoost, I can specify which of my features are categorical versus numeric, which I can't do in logisitc regression or random forest. I had to assign arbitrary numbers to all of the categorical variables in my logistic regression and random forest models, which would imply that there is some order to the variables when there isn't. 
 
-## Model Training
-
-Is there overfitting? How to check, how to mitigate?
-Are all features needed? Why or why not? If so, how can I choose features?
-What are the important features?
-Do I have imbalanced classes in my data? What to do?
-Grading Criteria:
-Base 5 pts: Did basic model training with some hyperparameter tuning.
-Add any additional points. You can also give partial points to these based on your judgement.
-+ 3 pts: Use feature selection or feature engineering. Or does extra analysis on feature rankings (feature importance)
-+ 3 pts: If the data's classes are imbalanced - uses methods to mitigate class imbalance (e.g.) oversampling or undersampling or using synthesized data (SMOTE) or setting model's option to adjust class weights if available. Must explain why they made these choices explicitly. Using a model library's default options (even when it has set to use these weights by default) will not qualify.
-6. Results and Analysis (20 pts)
+## Model Training / Results
 
 Things to consider:
 Does it have a summary of results and analysis?
@@ -132,6 +121,10 @@ Next I used kfold cross validation to test for overfitting. The training average
 
 Note: I did not check the feature importance for my logisitic regression model as that is not a feature available for logistic regression models.
 
+As another way to test the performance of the model, I made an ROC curve, which shows that the model performs well.
+
+![ROC Curve Logistic Regression](images/LogReg_AUC_Score.png)
+
 ### Random Forest
 
 For my random forest model, I wanted to start by checking my hyperparameters. For random forets, I wanted to check the n_estimators, max_depth, min_samples_split. This predicted the best model to be n_estimators = 300, max_depth = 10, and min_samples_split = 5, and the model accuracy slightly increased from 0.82 to 0.83, so I will use this model going forward
@@ -142,6 +135,10 @@ Next, I was curious how the model ranked feature importance, so I made a list of
 
 ![RF top 20 features](images/RF_top_20.png)
 
+As another way to test the performance of the model, I made an ROC curve, which shows that the model performs well.
+
+![ROC Curve Random Forest](images/RF_AUC_Score.png)
+
 ### CatBoost
 
 For my CatBoost model, I wanted to start by checking my hyperparameters. For CatBoost, I wanted to check iterations, depth, and learning_rate. This predicted the best model to be iterations = 1000 and depth = 4. This caused the model accuracy to decrease slightly, from 0.83 to 0.83, so I will stick to the original model going forward.
@@ -151,6 +148,18 @@ Next I used kfold cross validation to test for overfitting. The training average
 Next, I was curious how the model ranked feature importance, so I made a list of the top 20 features
 
 ![cat top 20 features](images/cat_top_20.png)
+
+As another way to test the performance of the model, I made an ROC curve, which shows that the model performs well.
+
+![ROC Curve CatBoost](images/cat_AUC_Score.png)
+
+## Discussion and Conclusion
+
+There is more I would like to try with this project when I have the time. One thing I noticed when playing around with the data is that there is an issue with class imbalance. A large majority of the dataset is from one species. It's such a large majority that I didn't try and use machine learning methods to mitigate class imbalance, but this is something I'd like to try in the future. 
+
+![Species Distribution](images/species_distribution.png)
+
+Another thing I'd like to try with this project is to reduce the number of features in the model. I had played around with it some, by ranking the features by importance, and only keeping the most important precipitation and temperature features, and getting rid of the rest. But it reduced the accuracy of the model, and I couldn't figure out exactly which features to keep and which not to keep, so I would like to work on this more.
 
 7. Discussion and Conclusion (10 pts)
 
